@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>데일리룩 상세</title>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&amp;family=Noto+Sans+KR:wght@400;700&amp;display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		html {font-family: 'Noto Sans KR', Sans-serif;	
+			  scroll-behavior: smooth;
+			  height:100%;}
+
+		body {height: 100%;
+			  padding: 0px;
+			  margin: 0px;}
+	 	a {text-decoration: none;}
+	 	ul {list-style: none;}
+		header {position: fixed;	
+			   z-index: 10;
+			   width: 100%;}
+
+
+
+		.header {width: 1300px;	
+				height: 100px;
+				margin: auto;
+				box-sizing: border-box;	
+				padding: 0px 20px;
+				background-color: white;}
+		
+		.header .inner {height: 100%;
+						border-bottom: 1px solid gray;
+						position: relative;}
+		
+		.header .inner .logo {background: url(logo.png) no-repeat;
+							  margin-top: 10px;
+							  width:300px;
+							  height:120px;
+							  position: absolute;
+							  background-size: 100%}
+
+		.header .menu {text-align: right;}
+
+		.header .menu ul {display: inline-block;}	
+
+		.header .menu li {float: left;	
+							padding: 0px 25px;	
+							font-size: 15px;	
+							font-weight: 400;	
+							line-height: 70px;	
+							margin-top: 15px; }
+
+		.header .menu a {position: relative;}
+
+		.header .menu li:hover {line-height: 40px; transition: all 0.5s;}				
+		.main1 {padding-top: 150px;}
+
+		.main1 .section1 {width: 1300px;
+						 
+						position: relative;
+						margin: auto;
+						box-sizing: border-box;
+						display: block;}
+
+		.main1 .section1 .img_area {float: left;	
+								width: 800px;
+								height: 700px;
+								text-align: center;
+								box-sizing: border-box;
+								padding: 20px;
+							position: absolute;}
+
+		.main1 .section1 .img {background: url(img2.jpg) no-repeat;
+							 border-bottom: 1px solid #2e2e2e;
+							  margin-top: 10px;
+							  width:100%;
+							  height:100%;
+							  background-size: cover;
+							  background-position: center;}
+
+		.main1 .section1 .text_area {float: right;
+									display: block;
+									width: 500px;
+									height: 700px;
+									box-sizing: border-box;
+									padding: 35px 55px;}
+
+		.main1 .section1 .text_area .title {font-size: 1.3em;
+										 	font-weight: 400;}
+
+		.main1 .section1 .text_sub_area {margin-top: 40px;
+										margin-bottom: 40px;}
+
+		.main1 .section1 .text_sub_area p {margin: 8px 0px; 
+										   font-size: 0.8em;}
+
+		.main1 .section1 .group {padding-top: 30px; }
+
+		.main1 .section1 .group .button1{width: 130px; 
+										height: 50px; 
+										background-color: #F4BC95;
+										color: white;
+										cursor: pointer;
+										border-radius: 10px;
+										margin: 0px 3px;}
+
+		.main1 .section1 .group .button2{width: 70px; 
+										height: 50px; 
+										background-color: #F4BC95;
+										color: white;
+										cursor: pointer;
+										border-radius: 10px;
+										margin: 0px 3px;}
+
+	
+
+		.img1 {background: url(img3.jpg) no-repeat;
+								margin-top: 10px;
+								width:70%;
+								height:80%;
+								margin: auto;
+								background-size: cover;
+								background-position: center;}
+
+		.img2 {background: url(11.jpg) no-repeat;
+								margin-top: -35px;
+								width:50%;
+								height:60%;
+								margin: auto;
+								background-size: cover;
+								background-position: center;}
+		.img3{padding-top:250px;
+			margin: auto;
+			padding-left: 500px;}
+
+		.img14{padding-top:0px;
+			margin: auto;
+			padding-left: 500px;}
+
+		.title_detail {width: 1920px; font-size: 2em;
+						text-align: center; font-weight: 500;}
+
+
+
+
+		.name{width: 350px height 300px; background:; margin: auto; 
+				text-align: center; margin-bottom: 40px font-size: 1em; padding-bottom: 40px; font-weight: 600;
+				padding-top: 180px;}
+
+
+		.section3{width: 900px;background: ; margin: auto;
+			height: 45px; display: flex; padding:0px 5px;
+			margin-top: 0px;}
+
+
+		.section3 .col-6 { width: 190px; background: #D1D1D1; 
+			margin: auto; text-align: center;
+							margin: 0px 0px; font-size: 1em;
+							font-weight: 600; padding: 10px 30px;}
+
+		.section4{width: 900px;background: ; margin: auto;
+			margin-top: 0px;
+			height: 60px; display: flex; padding:0px 5px;}
+
+		.section4 .col-6 { width: 190px; background: #E8E8E8; 
+			margin: auto;text-align: center;
+							margin: 0px 0px; font-size: 1em;
+							font-weight: 200; padding: 17px 30px;}
+
+	</style>
+</head>
+
+<body>
+	<header>
+		<div class="header">
+			<div class="inner">
+				<a href="" target="_new">
+					<div class="logo">					
+					</div>
+				</a>
+				<div class="menu">
+					<ul>
+						<li>
+							<a href="" target="_new">Home</a>
+						</li>
+						<li>
+							<a href="" target="_new">D-look</a>
+						</li>
+						<li>
+							<a href="" target="_new">My page</a>
+						</li>
+						<li>
+							<a href="" target="_new">Cart</a>
+						</li>
+						<li>
+							<a href="" target="_new">More</a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="main1">
+		<section class="section1">
+			<div class="img_area">
+				<div class="img">
+				</div>
+			</div>
+			<div class="text_area">
+				<div class="title">
+					가을을 위한 따스한 니트 코디
+				</div>
+					<div class="text_sub_area">
+						<p>에브리싱글데이즈만의 감성을 담은 따뜻한 느낌의 데일리룩입니다.</p>
+						<p>해질녘 노을처럼 부드럽지만 단단한 모습을 연출해보세요.
+						<p>
+						<p>당신의 찬란한 가을날을 위해 이러한 데일리 코디를 제시합니다.
+						</p>
+						<p>지금 바로 경험해보세요.</p>
+					</div>
+					<div class="group">
+						<a href="">
+							<button class="button1">
+							장바구니
+							</button>
+						</a>
+						<a href="">
+							<button class="button1">
+							대여하기
+							</button>
+						</a>
+						<a href="">
+							<button class="button2">
+							찜
+							</button>
+						</a>
+					</div>
+				</div>			
+		</section>	
+		<img class="img3" src="img3.jpg"></img>	
+
+		<div class="title_detail"> Detail info</div>
+
+		<img class="img14" src="img14.png"></img>
+
+<div class="name">
+	코튼 웜 베스트
+</div>
+		<section class="section3">					
+				<div class="col-6">
+					사이즈
+				</div>
+				<div class="col-6">
+					어깨
+				</div>
+				<div class="col-6">
+					가슴
+				</div>
+				<div class="col-6">
+					총장
+				</div>
+				<div class="col-6">
+					팔길이
+				</div>
+				<div class="col-6">
+					허리
+				</div>
+							
+		</section>	
+		<section class="section4">
+				<div class="col-6">
+					105
+				</div>
+				<div class="col-6">
+					44
+				</div>
+				<div class="col-6">
+					41
+				</div>
+				<div class="col-6">
+					71
+				</div>
+				<div class="col-6">
+					X
+				</div>
+				<div class="col-6">
+					50
+				</div>							
+		</section>
+		<section class="section3">					
+				<div class="col-6">
+					컬러
+				</div>
+				<div class="col-6">
+					소재
+				</div>
+				<div class="col-6">
+					두께감
+				</div>
+				<div class="col-6">
+					비침정도
+				</div>
+				<div class="col-6">
+					계절감
+				</div>
+				<div class="col-6">
+					신축성
+				</div>
+							
+		</section>	
+		<section class="section4">
+				<div class="col-6">
+					베이지
+				</div>
+				<div class="col-6">
+					폴리에스테르
+				</div>
+				<div class="col-6">
+					적당함
+				</div>
+				<div class="col-6">
+					비치지 않음
+				</div>
+				<div class="col-6">
+					사계절용
+				</div>
+				<div class="col-6">
+					있음
+				</div>
+							
+		</section>	
+
+	<div class="name">
+	린넨 와이드 팬츠
+	</div>
+		<section class="section3">					
+				<div class="col-6">
+					사이즈
+				</div>
+				<div class="col-6">
+					총장
+				</div>
+				<div class="col-6">
+					허리
+				</div>
+				<div class="col-6">
+					엉덩이
+				</div>
+				<div class="col-6">
+					밑위
+				</div>
+				<div class="col-6">
+				 	허벅지
+				</div>
+							
+		</section>	
+		<section class="section4">
+				<div class="col-6">
+					105
+				</div>
+				<div class="col-6">
+					100
+				</div>
+				<div class="col-6">
+					31
+				</div>
+				<div class="col-6">
+					30
+				</div>
+				<div class="col-6">
+					20
+				</div>
+				<div class="col-6">
+					28
+				</div>
+
+							
+		</section>	
+			<section class="section3">					
+				<div class="col-6">
+					컬러
+				</div>
+				<div class="col-6">
+					소재
+				</div>
+				<div class="col-6">
+					두께감
+				</div>
+				<div class="col-6">
+					비침정도
+				</div>
+				<div class="col-6">
+					계절감
+				</div>
+				<div class="col-6">
+					신축성
+				</div>
+							
+		</section>	
+		<section class="section4">
+				<div class="col-6">
+					뉴트럴베이지
+				</div>
+				<div class="col-6">
+					린넨
+				</div>
+				<div class="col-6">
+					얇음
+				</div>
+				<div class="col-6">
+					비치지 않음
+				</div>
+				<div class="col-6">
+					사계절용
+				</div>
+				<div class="col-6">
+					없음
+				</div>
+							
+		</section>	
+
+	<div class="name">
+		컨버스 척테일러
+	</div>
+		<section class="section3">					
+				<div class="col-6">
+					사이즈
+				</div>
+				<div class="col-6">
+					발볼
+				</div>
+				<div class="col-6">
+					형태
+				</div>
+				<div class="col-6">
+					컬러
+				</div>
+				<div class="col-6">
+					굽
+				</div>
+				<div class="col-6">
+				 	계절감
+				</div>
+							
+		</section>	
+		<section class="section4">
+				<div class="col-6">
+					270
+				</div>
+				<div class="col-6">
+					120
+				</div>
+				<div class="col-6">
+					컨버스
+				</div>
+				<div class="col-6">
+					네이비
+				</div>
+				<div class="col-6">
+					없음
+				</div>
+				<div class="col-6">
+					사계절용
+				</div>
+	</div>
+
+
+<footer>
+	
+
+</footer>
+	
+
+</body>
+</html>
